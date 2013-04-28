@@ -19,5 +19,8 @@
     "mocha": "~1.9.0",
     "sinon": "~1.6.0",
     "chai": "~1.5.0"
+  },
+  "dependencies": {
+    "http-proxy": "~0.10.2"
   }
 }
