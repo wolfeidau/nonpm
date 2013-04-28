@@ -27,9 +27,28 @@ As I currently use only a subset of the commands available in npm I will
 target those first. The ones I am going after are:
 
 ```
+npm search
+npm info
+npm update
+npm install
 npm publish
 npm unpublish
 ```
+
+I plan to detail the interactions in a separate document and summarise the results here.
+
+# schema
+
+One of the big hurdles will be translating the existing couch schema into leveldb. Need to do a bit of research on how
+this works at the moment.
+
+# security
+
+As there are a few things I am not really keen on in npm from a security perspective I will need to keep a log of these
+just so I can raise them at a later date.
+
+1. Currently npm will transmit basic authentication credentials over http without warning you about security of the
+transport.
 
 # status
 
