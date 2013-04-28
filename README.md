@@ -37,5 +37,5 @@ This project is currently WORK IN PROGRESS!
 
 # License
 
-Copyright (c) 2012 Mark Wolfe
+Copyright (c) 2012+ Mark Wolfe
 Licensed under the BSD license.
