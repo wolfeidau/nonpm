@@ -39,8 +39,8 @@ I plan to detail the interactions in a separate document and summarise the resul
 
 # schema
 
-One of the big hurdles will be translating the existing couch schema into leveldb. Need to do a bit of research on how
-this works at the moment.
+One of the big hurdles will be translating the existing couch schema into leveldb, as @dominictarr has already done a
+lot of work in this area
 
 # security
 
@@ -49,6 +49,12 @@ just so I can raise them at a later date.
 
 1. Currently npm will transmit basic authentication credentials over http without warning you about security of the
 transport.
+
+# other projects
+
+* https://github.com/isaacs/ryp older project but illustrates some of the ideas in npm.
+* https://github.com/dominictarr/npmd project by @dominictarr to do something similar more for caching though.
+* https://npmjs.org/package/http-signature this is interesting and probably important in the future.
 
 # status
 
